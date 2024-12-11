@@ -1,0 +1,23 @@
+.root-editor-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-header, .editor-footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.editor-body {
+    background-color: bisque;
+    flex-grow: 1;
+}
+
+.editor-left-container, .editor-right-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
